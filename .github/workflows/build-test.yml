@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node: [10, 12]
+        node: [10, 12, 14.16.0, 14.18.1]
 
     steps:
       - name: Checkout
