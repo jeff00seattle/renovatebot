@@ -13,7 +13,7 @@
   ],
   "timezone": "America/Los_Angeles",
   "schedule": [
-    "15 */2 * * *"
+    "15 * * * *"
   ],
   "ignoreDeps": ["cypress"]
 }
