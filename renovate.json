@@ -13,8 +13,7 @@
   ],
   "timezone": "America/Los_Angeles",
   "schedule": [
-    "after 10pm every weekday",
-    "before 5am every weekday",
-    "every weekend"
-  ]
+    "15 */2 * * *"
+  ],
+  "ignoreDeps": ["cypress"]
 }
